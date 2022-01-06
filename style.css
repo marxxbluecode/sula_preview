@@ -6,7 +6,15 @@
 body{
     background-color: #E6E3E3;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+main{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
 .wrapper{
     max-width: 1888px;
     width: 98%;
@@ -15,7 +23,7 @@ body{
 }
 .header{
     height: auto;
-    background-color: #F5F5F5;
+    background-color: #fdfdfd;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,18 +47,49 @@ body{
 .SearchBar{
     display: flex;
     align-items: center;
+    height: auto;
 }
 .searchicon{
-    position: relative;
+   
 
 }
 .inputBar{
-    width: 15vw;
-    height: 1vh;
+    width: 324px;
     background-color: #E0DDDD;
     display: flex;
     align-items: center;
-    padding: 2vw;
-    border-radius: 5%/10%;
-    background-image: url();
+    padding: 12px;
+    border-radius: 21px;
+    background-image: url(images/Icon\ feather-zoom.png);
+    background-repeat: no-repeat;
+    background-position-X: 10px; 
+    background-position-Y: center;
+    
+}
+.wrapperright{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 25px 44px;
+    border-radius: 16px;
+}
+.BoxRight{
+    width: 49.5%;
+    height: 900px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 3px 20px #84848429;
+}
+.BoxLeft{
+    width: 49.5%;
+    height: 900px;
+    background-color: #ffffff;
+    overflow: auto;
+    border-radius: 16px;
+    box-shadow: 0px 3px 20px #84848429;
+  }  
+.info{
+    padding: 16px;
+    font-size: 24px;
 }
