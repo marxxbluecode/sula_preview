@@ -33,7 +33,7 @@ main{
     box-shadow: 0px 3px 20px #84848429;
 }
 .screensize{
-    background-color: #F5F5F5;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,6 +48,7 @@ main{
     display: flex;
     align-items: center;
     height: auto;
+    padding: 20px 0 10px 0;
 }
 .inputBar{
     width: 324px;
@@ -60,6 +61,8 @@ main{
     background-repeat: no-repeat;
     background-position-X: 10px; 
     background-position-Y: center;
+    outline: none;
+    border: none;
     
 }
 .wrapperright{
@@ -69,25 +72,20 @@ main{
     background-color: white;
     padding: 25px 44px;
     border-radius: 16px;
-}
-.BoxRight{
-    width: 49.5%;
-    height: 900px;
-    background-color: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0px 3px 20px #84848429;
-    
+
 }
 .BoxLeft{
     width: 49.5%;
-    height: 900px;
+    height: 930px;
     background-color: #ffffff;
     overflow: auto;
     border-radius: 16px;
     box-shadow: 0px 3px 20px #84848429;
-  }  
+    overflow-x: hidden;
+}  
 .info{
     font-size: 24px;
+    padding: 50px 0 0 0;
 }
 .userrow{
     display: flex;
@@ -133,15 +131,14 @@ main{
 }
 .Over{
     overflow: auto;
-  }
+}
   
-  .BoxRight{
+.BoxRight{
     width: 49.5%;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     border-radius: 16px;
-    height: 624px;
-  }
-  
+    height: 930px;
+}
   .lupa{
     width: 54px;
     height: 188px;
